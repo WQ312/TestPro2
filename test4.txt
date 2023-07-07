@@ -1,0 +1,24 @@
+Shader
+A星
+PlayMarker
+Behaviour Designer
+反射
+依赖注入
+
+http://183.146.28.150:8443/sa?project=default
+http://183.146.28.150:8443/sa?project=default
+
+
+select distinct_id,event,time,`$event_duration`,e_code_team,btn_type,btn_name,car_series,car_type,cartype_version
+from events 
+where distinct_id='02907076b47299f7'
+order by time desc;
+
+select distinct_id,event,time,`$event_duration`,e_code_team,btn_type,btn_name,car_series,car_type,cartype_version
+from events 
+where event='ar_exhibition_choice_browse'
+order by time desc;
+
+33333
+4444
+55555
